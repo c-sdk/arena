@@ -3,6 +3,12 @@
 
 #include <stddef.h>
 
+#ifdef LOG_ARENA
+#define arena_log(...) printf(__VA_ARGS__)
+#else
+#define arena_log(...)
+#endif
+
 typedef size_t arena_size_t;
 
 typedef struct arena_t {

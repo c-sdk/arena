@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "log.h"
 #include "arena.h"
 
 int arena_create(arena_t *arena, arena_size_t size) {
