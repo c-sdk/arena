@@ -1,0 +1,8 @@
+{
+  "name": "arena",
+  "version": "0.1.0",
+  "repo": "c-sdk/arena",
+  "description": "Some arena allocators (only fixed size avilable right now).",
+  "license": "Unlicense",
+  "src": ["./arena.h", "./arena.c"]
+}
